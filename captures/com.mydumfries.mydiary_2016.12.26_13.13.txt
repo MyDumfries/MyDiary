@@ -1,0 +1,346 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/html:
+        5e1191a com.mydumfries.mydiary/.ShareActivity
+      text/plain:
+        5e1191a com.mydumfries.mydiary/.ShareActivity
+
+  Base MIME Types:
+      text:
+        5e1191a com.mydumfries.mydiary/.ShareActivity (2 filters)
+
+  Schemes:
+      tagmanager.c.com.mydumfries.mydiary:
+        a99cc4b com.mydumfries.mydiary/com.google.android.gms.tagmanager.TagManagerPreviewActivity
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cbd0628 com.mydumfries.mydiary/.MyDiaryActivity
+      com.google.android.gms.appinvite.ACTION_PREVIEW:
+        f4bff41 com.mydumfries.mydiary/com.google.android.gms.appinvite.PreviewActivity
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        5e1191a com.mydumfries.mydiary/.ShareActivity
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED:
+        867ace6 com.mydumfries.mydiary/.Alarm
+      com.android.vending.INSTALL_REFERRER:
+        ab6e227 com.mydumfries.mydiary/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+      android.bluetooth.device.action.ACL_CONNECTED:
+        867ace6 com.mydumfries.mydiary/.Alarm
+      com.google.android.c2dm.intent.RECEIVE:
+        9f05cd4 com.mydumfries.mydiary/com.google.firebase.iid.FirebaseInstanceIdReceiver
+      android.intent.action.BOOT_COMPLETED:
+        7984e7d com.mydumfries.mydiary/.AutoStart
+      android.provider.Telephony.SMS_RECEIVED:
+        867ace6 com.mydumfries.mydiary/.Alarm
+      android.appwidget.action.APPWIDGET_UPDATE:
+        571b172 com.mydumfries.mydiary/.DiaryWidgetProvider
+      com.google.android.c2dm.intent.REGISTRATION:
+        9f05cd4 com.mydumfries.mydiary/com.google.firebase.iid.FirebaseInstanceIdReceiver
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        867ace6 com.mydumfries.mydiary/.Alarm
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        5a579c3 com.mydumfries.mydiary/com.google.firebase.iid.FirebaseInstanceIdService
+      com.google.firebase.MESSAGING_EVENT:
+        2607240 com.mydumfries.mydiary/com.google.firebase.messaging.FirebaseMessagingService
+
+Preferred Activities User 0:
+  Full MIME Types:
+      text/plain:
+        97e9ad9 com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=true
+          Selected from:
+            com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+            me.bluemail.mail/com.trtf.blue.activity.MessageCompose
+            com.mydumfries.mydiary/.ShareActivity
+            com.twitter.android/com.twitter.app.dm.DMActivity
+            com.twitter.android/.composer.ComposerActivity
+            com.android.mms/.ui.ConversationComposer
+            com.estrongs.android.pop/.app.SaveToESActivity
+            com.estrongs.android.pop/.app.filetransfer.FileTransferSendActivity
+            com.estrongs.android.pop/.app.ESFileSharingActivity
+            com.contapps.android/.sms.NewMessageActivityLauncher
+            com.microsoft.office.onenote/.ui.clipper.ShareReceiverActivity
+            com.dropbox.android/.activity.DropboxSendTo
+            com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.ActionReceiver
+            com.viber.voip/.WelcomeShareActivity
+            com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity
+            de.stefanpledl.localcast/.main.MainActivity
+            com.google.android.gm/.ComposeActivityGmailExternal
+            com.adobe.reader/.services.cpdf.ARCreatePDFActivity
+            com.android.nfc/.BeamShareActivity
+            com.google.zxing.client.android/.encode.EncodeActivity
+            com.android.bluetooth/.opp.BluetoothOppLauncherActivity
+            com.google.android.apps.docs/.drive.clipboard.SendTextToClipboardActivity
+            com.samsung.android.email.provider/com.samsung.android.email.composer.activity.MessageCompose
+            com.hp.android.print/.preview.share.ShareProxyActivity
+            com.google.android.keep/.activities.ShareReceiverActivity
+            com.samsung.android.app.memo/.Main
+            com.facebook.orca/com.facebook.messenger.intents.ShareIntentHandler
+            com.sec.enterprise.knox.express/.WelcomeActivity
+            com.tapatalk.labspieandbovrilcomforum/com.quoord.tapatalkpro.share.AppShareActivity
+            com.google.android.apps.docs/.shareitem.UploadMenuActivity
+            com.google.android.apps.translate/.TranslateActivity
+            com.samsung.android.app.FileShareClient/.DeviceSelectActivity
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        333ff4c com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        85661fe com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        9b9be98 com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        3b1fba com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  Base MIME Types:
+      text:
+        97e9ad9 com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=true
+          Selected from:
+            com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+            me.bluemail.mail/com.trtf.blue.activity.MessageCompose
+            com.mydumfries.mydiary/.ShareActivity
+            com.twitter.android/com.twitter.app.dm.DMActivity
+            com.twitter.android/.composer.ComposerActivity
+            com.android.mms/.ui.ConversationComposer
+            com.estrongs.android.pop/.app.SaveToESActivity
+            com.estrongs.android.pop/.app.filetransfer.FileTransferSendActivity
+            com.estrongs.android.pop/.app.ESFileSharingActivity
+            com.contapps.android/.sms.NewMessageActivityLauncher
+            com.microsoft.office.onenote/.ui.clipper.ShareReceiverActivity
+            com.dropbox.android/.activity.DropboxSendTo
+            com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.ActionReceiver
+            com.viber.voip/.WelcomeShareActivity
+            com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity
+            de.stefanpledl.localcast/.main.MainActivity
+            com.google.android.gm/.ComposeActivityGmailExternal
+            com.adobe.reader/.services.cpdf.ARCreatePDFActivity
+            com.android.nfc/.BeamShareActivity
+            com.google.zxing.client.android/.encode.EncodeActivity
+            com.android.bluetooth/.opp.BluetoothOppLauncherActivity
+            com.google.android.apps.docs/.drive.clipboard.SendTextToClipboardActivity
+            com.samsung.android.email.provider/com.samsung.android.email.composer.activity.MessageCompose
+            com.hp.android.print/.preview.share.ShareProxyActivity
+            com.google.android.keep/.activities.ShareReceiverActivity
+            com.samsung.android.app.memo/.Main
+            com.facebook.orca/com.facebook.messenger.intents.ShareIntentHandler
+            com.sec.enterprise.knox.express/.WelcomeActivity
+            com.tapatalk.labspieandbovrilcomforum/com.quoord.tapatalkpro.share.AppShareActivity
+            com.google.android.apps.docs/.shareitem.UploadMenuActivity
+            com.google.android.apps.translate/.TranslateActivity
+            com.samsung.android.app.FileShareClient/.DeviceSelectActivity
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        333ff4c com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        85661fe com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        9b9be98 com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        3b1fba com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        97e9ad9 com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=true
+          Selected from:
+            com.facebook.katana/com.facebook.composer.shareintent.ImplicitShareIntentHandlerDefaultAlias
+            me.bluemail.mail/com.trtf.blue.activity.MessageCompose
+            com.mydumfries.mydiary/.ShareActivity
+            com.twitter.android/com.twitter.app.dm.DMActivity
+            com.twitter.android/.composer.ComposerActivity
+            com.android.mms/.ui.ConversationComposer
+            com.estrongs.android.pop/.app.SaveToESActivity
+            com.estrongs.android.pop/.app.filetransfer.FileTransferSendActivity
+            com.estrongs.android.pop/.app.ESFileSharingActivity
+            com.contapps.android/.sms.NewMessageActivityLauncher
+            com.microsoft.office.onenote/.ui.clipper.ShareReceiverActivity
+            com.dropbox.android/.activity.DropboxSendTo
+            com.socialnmobile.dictapps.notepad.color.note/com.socialnmobile.colornote.activity.ActionReceiver
+            com.viber.voip/.WelcomeShareActivity
+            com.microsoft.skydrive/.intent.actionsend.ReceiveActionSendActivity
+            de.stefanpledl.localcast/.main.MainActivity
+            com.google.android.gm/.ComposeActivityGmailExternal
+            com.adobe.reader/.services.cpdf.ARCreatePDFActivity
+            com.android.nfc/.BeamShareActivity
+            com.google.zxing.client.android/.encode.EncodeActivity
+            com.android.bluetooth/.opp.BluetoothOppLauncherActivity
+            com.google.android.apps.docs/.drive.clipboard.SendTextToClipboardActivity
+            com.samsung.android.email.provider/com.samsung.android.email.composer.activity.MessageCompose
+            com.hp.android.print/.preview.share.ShareProxyActivity
+            com.google.android.keep/.activities.ShareReceiverActivity
+            com.samsung.android.app.memo/.Main
+            com.facebook.orca/com.facebook.messenger.intents.ShareIntentHandler
+            com.sec.enterprise.knox.express/.WelcomeActivity
+            com.tapatalk.labspieandbovrilcomforum/com.quoord.tapatalkpro.share.AppShareActivity
+            com.google.android.apps.docs/.shareitem.UploadMenuActivity
+            com.google.android.apps.translate/.TranslateActivity
+            com.samsung.android.app.FileShareClient/.DeviceSelectActivity
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        333ff4c com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        85661fe com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        9b9be98 com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+        3b1fba com.mydumfries.mydiary/.ShareActivity
+         mMatch=0x600000 mAlways=false
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+          AutoVerify=false
+
+Permissions:
+  Permission [com.mydumfries.mydiary.permission.C2D_MESSAGE] (4cdb5d4):
+    sourcePackage=com.mydumfries.mydiary
+    uid=10351 gids=null type=0 prot=signature
+    perm=Permission{3605579 com.mydumfries.mydiary.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{68166c3 com.mydumfries.mydiary/10351}
+
+Registered ContentProviders:
+  com.mydumfries.mydiary/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{ea572be com.mydumfries.mydiary/com.google.firebase.provider.FirebaseInitProvider}
+
+ContentProvider Authorities:
+  [com.mydumfries.mydiary.firebaseinitprovider]:
+    Provider{ea572be com.mydumfries.mydiary/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{4fa726c com.mydumfries.mydiary}
+
+Key Set Manager:
+  [com.mydumfries.mydiary]
+      Signing KeySets: 4244
+
+Packages:
+  Package [com.mydumfries.mydiary] (68166c3):
+    userId=10351
+    pkg=Package{7c1fcca com.mydumfries.mydiary}
+    codePath=/data/app/com.mydumfries.mydiary-1
+    resourcePath=/data/app/com.mydumfries.mydiary-1
+    legacyNativeLibraryDir=/data/app/com.mydumfries.mydiary-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    nativeLibraryRootDir=/data/app/com.mydumfries.mydiary-1/lib
+    nativeLibraryDir=/data/app/com.mydumfries.mydiary-1/lib/arm64
+    secondaryNativeLibraryDir=null
+    nativeLibraryRootRequiresIsa=true
+    dexMode=unknown
+    versionCode=1 targetSdk=19
+    versionName=1.0
+    splits=[base]
+    applicationInfo=ApplicationInfo{4fa726c com.mydumfries.mydiary}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.mydumfries.mydiary
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-12-26 13:07:03
+    firstInstallTime=2016-06-12 08:45:21
+    lastUpdateTime=2016-12-26 13:07:03
+    signatures=PackageSignatures{109eb6c [6da5e3b]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.mydumfries.mydiary.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.READ_CONTACTS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WRITE_CONTACTS
+      android.permission.INTERNET
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      android.permission.RECORD_AUDIO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.android.alarm.permission.SET_ALARM
+      android.permission.READ_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.CAMERA
+      com.google.android.c2dm.permission.RECEIVE
+      com.mydumfries.mydiary.permission.C2D_MESSAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.READ_SMS, granted=true, flags=0x0
+      android.permission.READ_CALENDAR, granted=true, flags=0x0
+      com.google.android.c2dm.permission.RECEIVE, granted=true, flags=0x0
+      android.permission.ACCESS_FINE_LOCATION, granted=true, flags=0x0
+      android.permission.RECEIVE_BOOT_COMPLETED, granted=true, flags=0x0
+      android.permission.RECEIVE_SMS, granted=true, flags=0x0
+      com.android.alarm.permission.SET_ALARM, granted=true, flags=0x0
+      android.permission.INTERNET, granted=true, flags=0x0
+      android.permission.READ_EXTERNAL_STORAGE, granted=true, flags=0x0
+      android.permission.WRITE_CONTACTS, granted=true, flags=0x0
+      android.permission.ACCESS_NETWORK_STATE, granted=true, flags=0x0
+      android.permission.CAMERA, granted=true, flags=0x0
+      android.permission.WRITE_CALENDAR, granted=true, flags=0x0
+      com.mydumfries.mydiary.permission.C2D_MESSAGE, granted=true, flags=0x0
+      android.permission.WRITE_EXTERNAL_STORAGE, granted=true, flags=0x0
+      android.permission.ACCESS_WIFI_STATE, granted=true, flags=0x0
+      android.permission.RECORD_AUDIO, granted=true, flags=0x0
+      android.permission.WAKE_LOCK, granted=true, flags=0x0
+      android.permission.READ_CONTACTS, granted=true, flags=0x0
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:
+mPackagesOnlyForOwnerUser:
+mComponentsOnlyForOwnerUser:
