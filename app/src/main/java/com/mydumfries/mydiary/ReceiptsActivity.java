@@ -13,7 +13,7 @@ public class ReceiptsActivity  extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.receipts);
-        final TextView onenote = (TextView) findViewById(R.id.launchonenote);
+        final TextView onenote = findViewById(R.id.launchonenote);
         onenote.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 PackageManager packageManager = getPackageManager();
@@ -29,7 +29,7 @@ public class ReceiptsActivity  extends Activity {
                 }
             }
         });
-        final TextView lens = (TextView) findViewById(R.id.launchlens);
+        final TextView lens = findViewById(R.id.launchlens);
         lens.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 PackageManager packageManager = getPackageManager();
